@@ -1,0 +1,50 @@
+
+<html lang="es">
+    <head>
+        <title>Metodologia BEM</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <!--Encabezado-->
+        <header class="header"> 
+            <!--Barra de navegacion utilizando BEM-->
+            <nav class="nav"> 
+                <!--Componente Titulo de barra de navegacion-->
+                <h1 class="nav__title">Metodología BEM</h1>
+                <!--Componente Menu de barra de navegacion-->
+                <ul class="nav__menu">
+                    <!--Enlaces del menu de la barra de navegacion-->
+                    <li class="nav__menu-item"><a class="nav__menu-link" href="index.html">Pagina Principal</a></li>
+                    <li class="nav__menu-item"><a class="nav__menu-link" href="ejemploImagen.html">Imagen</a></li> 
+                    <li class="nav__menu-item"><a class="nav__menu-link" href="ejemploAudio.html">Audio</a></li>   
+                    <li class="nav__menu-item"><a class="nav__menu-link" href="ejemploIframe.html">Iframe</a></li>   
+                    <li class="nav__menu-item"><a class="nav__menu-link" href="ejemploFormulario.html">Formulario</a></li>   
+                    <li class="nav__menu-item"><a class="nav__menu-link" href="ejemploVideo.html">Video</a></li>                        
+                </ul>
+            </nav>            
+        </header>
+        
+        <aside>
+            <<h1>IFrame</h1>
+            <p>En este iFrame podremos acceder a la documentacion de la metodologia BEM</p>
+        </aside>
+        
+        <section class="section">
+            <article>
+                <<h2>Metodologia BEM</h2>
+            </article>
+            <figure>
+                <iframe src="https://en.bem.info/methodology/" width="700" height="1000"> </iframe>
+                <figcaption>Iframe sobre la documentacion de BEM</figcaption>
+            </figure>
+        </section>    
+        
+        
+        <!--Pie de pagina-->
+        <footer class="footer">
+            <p class="footer__text">Derechos Reservados TechShop &copy;2024</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+
+<html lang="es">
+    <head>
+        <title>Metodologia BEM</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <!--Encabezado-->
+        <header class="header"> 
+            <!--Barra de navegacion utilizando BEM-->
+            <nav class="nav"> 
+                <!--Componente Titulo de barra de navegacion-->
+                <h1 class="nav__title">Metodología BEM</h1>
+                <!--Componente Menu de barra de navegacion-->
+                <ul class="nav__menu">
+                    <!--Enlaces del menu de la barra de navegacion-->
+                    <li class="nav__menu-item"><a class="nav__menu-link" href="index.html">Pagina Principal</a></li>
+                    <li class="nav__menu-item"><a class="nav__menu-link" href="ejemploImagen.html">Imagen</a></li> 
+                    <li class="nav__menu-item"><a class="nav__menu-link" href="ejemploAudio.html">Audio</a></li>   
+                    <li class="nav__menu-item"><a class="nav__menu-link" href="ejemploIframe.html">Iframe</a></li>   
+                    <li class="nav__menu-item"><a class="nav__menu-link" href="ejemploFormulario.html">Formulario</a></li>   
+                    <li class="nav__menu-item"><a class="nav__menu-link" href="ejemploVideo.html">Video</a></li>  
+                      
+                </ul>
+            </nav>            
+        </header>
+        
+        <aside>
+        <p>Bienvenido a nuestra pequeña página web dedicada a la metodología <strong> BEM (Block Element Modifier).</strong> BEM es una convención de nomenclatura para componentes en el desarrollo de front-end que facilita la escritura de CSS de manera clara y mantenible. Al estructurar el código CSS en bloques, elementos y modificadores, BEM ayuda a crear componentes reutilizables y escalables, mejorando la colaboración entre desarrolladores y diseñadores. </p>
+        <p>En este caso, el menú fue diseñado implementando la metodología BEM</p>
+        <p>Primero se establece el <u>contenedor nav</u>  que sera la barra de navegación</p>
+        <p>Luego por debajo iran los <u>componentes principales</u> siguiendo la estructura nav__componente, en este caso el titulo y el menu</p>
+        <p>Luego tenemos cada <u>enlace de la barra de navegacion</u>, siguiendo la estructura nav__componente-item</p>
+        </aside>
+        <!--Pie de pagina-->
+        <footer class="footer">
+            <p class="footer__text">Derechos Reservados TechShop &copy;2024</p>
+        </footer>
+    </body>
+</html>

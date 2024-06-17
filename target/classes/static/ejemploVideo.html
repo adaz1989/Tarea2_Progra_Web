@@ -1,0 +1,53 @@
+
+<html lang="es">
+    <head>
+        <title>Metodologia BEM</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <!--Encabezado-->
+        <header class="header"> 
+            <!--Barra de navegacion utilizando BEM-->
+            <nav class="nav"> 
+                <!--Componente Titulo de barra de navegacion-->
+                <h1 class="nav__title">Metodología BEM</h1>
+                <!--Componente Menu de barra de navegacion-->
+                <ul class="nav__menu">
+                    <!--Enlaces del menu de la barra de navegacion-->
+                    <li class="nav__menu-item"><a class="nav__menu-link" href="index.html">Pagina Principal</a></li>
+                    <li class="nav__menu-item"><a class="nav__menu-link" href="ejemploImagen.html">Imagen</a></li> 
+                    <li class="nav__menu-item"><a class="nav__menu-link" href="ejemploAudio.html">Audio</a></li>   
+                    <li class="nav__menu-item"><a class="nav__menu-link" href="ejemploIframe.html">Iframe</a></li>   
+                    <li class="nav__menu-item"><a class="nav__menu-link" href="ejemploFormulario.html">Formulario</a></li>   
+                    <li class="nav__menu-item"><a class="nav__menu-link" href="ejemploVideo.html">Video</a></li>                        
+                </ul>
+            </nav>            
+        </header>
+        
+        <aside>
+            <<h1>Video</h1>
+            <p>La idea era poner un video sobre nombrado de claes de la metodologia, pero el campus me daba error por el tamaño del archivo por lo que le quite el video de los archivos estaticos</p>
+        </aside>
+        
+        <section class="section">
+            <article>
+                <<h2>Metodologia BEM</h2>
+            </article>
+            <figure>
+                <video width="700" height="450" controls>
+                    <source src="videos/ComoNombrarClasesBEM.mp4" type="video/mp4">
+                    Your browser does not support the <code>video</code> tag.
+                </video>
+                <figcaption>Video sobre nombrado de clases de metodologia BEM</figcaption>
+            </figure>
+        </section>    
+            
+        
+        <!--Pie de pagina-->
+        <footer class="footer">
+            <p class="footer__text">Derechos Reservados TechShop &copy;2024</p>
+        </footer>
+    </body>
+</html>
